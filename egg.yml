@@ -1,0 +1,6 @@
+name: dirname
+description: A dead simple implementation of Node's __dirname in Deno
+stable: true
+repository: https://github.com/martonlederer/dirname
+bump: minor
+version: 1.0.0
