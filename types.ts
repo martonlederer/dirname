@@ -5,5 +5,5 @@ export interface IMakeLoc {
 
 export interface IMeta {
   url: string
-  [key: string]: any
+  main: boolean
 }
