@@ -1,6 +1,16 @@
 name: dirname
 description: A dead simple implementation of Node's __dirname in Deno
 stable: true
-repository: https://github.com/martonlederer/dirname
-bump: minor
-version: 1.0.0
+repository: 'https://github.com/martonlederer/dirname'
+version: 1.1.2
+checkFormat: false
+checkTest: false
+checkAll: false
+unlisted: false
+entry: /mod.ts
+files:
+  - LICENSE
+  - README.md
+  - types.ts
+  - mod.ts
+  - mod.ts

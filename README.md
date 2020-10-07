@@ -7,7 +7,7 @@
 
 ## Usage
 ```ts
-import makeloc from 'https://x.nest.land/dirname@v1.0.0/mod.ts'
+import makeloc from 'https://x.nest.land/dirname@v1.1.2/mod.ts'
 
 const { __dirname,  __filename } = makeloc(import.meta)
 ```
