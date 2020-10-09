@@ -1,4 +1,4 @@
-import { IMakeLoc } from './types.ts'
+import type { IMakeLoc } from './types.ts'
 import { join } from 'https://x.nest.land/std@0.73.0/path/mod.ts'
 
 // make a __dirname object
