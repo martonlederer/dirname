@@ -1,8 +1,8 @@
-import { IMakeLoc, IMeta } from './types.ts'
+import { IMakeLoc } from './types.ts'
 import { join } from 'https://x.nest.land/std@0.73.0/path/mod.ts'
 
 // make a __dirname object
-export default function (meta: IMeta): IMakeLoc {
+export default function (meta: ImportMeta): IMakeLoc {
   const 
     iURL = meta.url,
     fileStartRegex = /(^(file:)((\/\/)?))/,
